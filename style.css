@@ -12,6 +12,7 @@ a {
 }
 .welcome {
     text-align: center;
+    border-top: 10px;
 }
 .welcome img {
     width: 50%;
@@ -37,4 +38,14 @@ nav ul li {
     margin: 10px;
     position: relative;
     left: 37%;
+}
+.row {
+    background-color: #ffffff;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.61);
+    margin: 0px;
+}
+h1 {
+    margin-top: 0px;
 }
