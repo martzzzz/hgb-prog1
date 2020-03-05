@@ -1,0 +1,40 @@
+.navigation {
+    background-color: rgba(0, 0, 0, 0.61);
+    width: 100%;
+    padding: 10px;
+}
+.navigation > .links .link {
+    display: inline;
+    margin-right: 15px;
+}
+a {
+    color: #ffffff;
+}
+.welcome {
+    text-align: center;
+}
+.welcome img {
+    width: 50%;
+}
+main {
+    margin: 0;
+    text-align: center;
+}
+#interests > .int-list .interest {
+    display: inline;
+    margin: 70px;
+}
+table, th, tr, td {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    left: 37%;
+}

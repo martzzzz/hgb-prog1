@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martins Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script language="javascript">
+        var agePrompt=prompt("Du måste vara 20 år eller äldre för att komma åt denna sidan. Skriv in din ålder nedan");    
+        if (agePrompt>=20) alert('Välkommen till min portfolio.')
+        else {
+        document.location="http://www.google.com/"; 
+        }
+     </script>
+</head>
+<body>
+    <nav class="navigation">
+        <ul class="links">
+            <li class="link">
+                <a href="#top">Hem</a>
+            </li>
+            <li class="link">
+                <a href="#about">Om Mig</a>
+            </li>
+            <li class="link">
+                <a href="#interests">Intressen</a>
+            </li>
+            <li class="link">
+                <a href="#work">Jobb</a>
+            </li>
+        </ul>
+    </nav>
+<main>
+    <div class="welcome">
+        <div class="row">
+            <div class="col-12">
+                <h1>Martin Hägg</h1>
+                <img src="me n dog.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <div id="about">
+                <h2>Om Mig</h2S>
+                <p>Här skriver jag om mig menjag orkar inte skriva en text om mig och vill spendera prov tiden att kåda</p>
+            </div>
+        </div>
+        <div class="col-9">
+            <div id="interests">
+                <h2>Intressen</h2>
+                <ul class="int-list">
+                    <li class="interest">Datorer</li>
+                    <li class="interest">Spel</li>
+                    <li class="interest">Hantverk</li>
+                </ul>
+                <p>På min fritid har jag ett stort inträsse av datorer, datorspel och hårdvara. Mycket av min fritid spenderar jag med datorer men jag gillar även hantverk och skulle kalla mig lite artiskik. Är det något problem eller någonting jag vill ha ändrat försöker jag tänka ut och bygga en lösning själv, en DIY fanatiker kan man kalla mig. Under tidet som jag jobbade fick jag råd att bygga en bättre dator och tekniken för att spela in datorspel blev mycket mindre krävande. Jag började spela in klipp när jag spelade spel för att kunna visa mina vänner, det slutade med att jag tillslut började klippa ihop det jag spelade in till videor som jag lagt upp på youtube(jag är väldigt ny till video editing så kolla på egen risk).</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <iframe width="100%" height="auto" src="https://www.youtube.com/embed/9KM5zqhRAh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-3">
+            <iframe width="100%" height="auto" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/572735187&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        </div>
+        <div class="col-6">
+            <div id="work">
+                <h4>Arbets Historik</h4>
+                <table>
+                    <tr>
+                        <th>Job/Position</th>
+                        <th>Plats/Företag</th>
+                        <th>Lägnd</th>
+                    </tr>
+                    <tr>
+                        <td>Trädgårs hjälp</td>
+                        <td>Lillgårdsvägen/Höganäs Kommun</td>
+                        <td>3 Veckor</td>
+                    </tr>
+                    <tr>
+                        <td>Kassör</td>
+                        <td>Tempo Viken</td>
+                        <td>3 år (pågående)</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</main>
+<nav class="navigation">
+    <ul class="links">
+        <li class="link">
+            <a href="#top">Hem</a>
+        </li>
+        <li class="link">
+            <a href="#about">Om Mig</a>
+        </li>
+        <li class="link">
+            <a href="#interests">Intressen<a>
+        </li>
+        <li class="link">
+            <a href="#work">Jobb</a>
+        </li>
+    </ul>
+</nav>
+</body>
+</html>
